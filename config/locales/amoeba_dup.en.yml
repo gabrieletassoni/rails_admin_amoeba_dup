@@ -1,0 +1,11 @@
+
+en:
+  admin:
+    actions:
+      amoeba_dup:
+        title: "Amoeba Dup"
+        menu: "Amoeba Dup for %{model_label} '%{object_label}'"
+        breadcrumb: "Amoeba Dup"
+        link: "Amoeba Dup"
+        bulk_link: "Amoeba Dup selected %{model_label_plural}"
+        done: "Amoeba Duped"

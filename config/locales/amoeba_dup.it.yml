@@ -1,0 +1,11 @@
+
+it:
+  admin:
+    actions:
+      amoeba_dup:
+        title: "Duplica"
+        menu: "Duplicazione per %{model_label} '%{object_label}'"
+        breadcrumb: "Duplica"
+        link: "Duplica"
+        bulk_link: "Duplicazione %{model_label_plural}"
+        done: "Duplicazione Eseguita"
