@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Gabriele Tassoni"]
   s.email       = ["gabrieletassoni@taris.it"]
   s.homepage    = "https://www.taris.it"
-  s.summary     = "Fine control for duping."
-  s.description = "You have to enable it."
+  s.summary     = "Deep clone of records for rails_admin."
+  s.description = "Only for the models you set as enabled, this plugin adds a member action that allows for deep configurable cloning of records."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
