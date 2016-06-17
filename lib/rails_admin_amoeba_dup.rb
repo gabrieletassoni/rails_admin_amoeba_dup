@@ -18,7 +18,7 @@ module RailsAdmin
         # This ensures the action only shows up for Users
         register_instance_option :visible? do
           # visible only if authorized and if the object has a defined method
-          authorized? && bindings[:object].class.amoeba.enabled
+          (authorized? && bindings[:object].class.amoeba.enabled) rescue false
         end
 
         # You may or may not want pjax for your action
