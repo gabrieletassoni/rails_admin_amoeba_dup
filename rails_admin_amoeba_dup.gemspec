@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
   s.add_dependency 'thecore', "~> 1.0"
-  s.add_dependency 'amoeba', "~> 0"
+  s.add_dependency 'amoeba'#, "~> 0"
 end
